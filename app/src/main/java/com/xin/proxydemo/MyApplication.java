@@ -11,7 +11,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        ProxyHttp.obtain().init(new VolleyUtil());
+        ProxyHttp.obtain().init(new VolleyUtil(this));
 //        ProxyHttp.obtain().init(new OkHttpUtil());
 
     }
