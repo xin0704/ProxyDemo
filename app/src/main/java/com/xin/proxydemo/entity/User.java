@@ -1,4 +1,4 @@
-package com.xin.proxydemo;
+package com.xin.proxydemo.entity;
 
 /**
  * Created by admin on 2019/3/20.

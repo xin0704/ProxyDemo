@@ -1,4 +1,4 @@
-package com.xin.proxydemo;
+package com.xin.proxydemo.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.google.gson.Gson;
+import com.xin.proxydemo.R;
 import com.xin.proxydemo.common.IHttp;
 import com.xin.proxydemo.common.IHttpResultCallBack;
 import com.xin.proxydemo.dynamicProxy.ProxyFactory;
+import com.xin.proxydemo.entity.User;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
