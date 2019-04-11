@@ -1,4 +1,4 @@
-package com.xin.proxydemo;
+package com.xin.proxydemo.common;
 
 import com.google.gson.Gson;
 

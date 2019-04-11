@@ -1,4 +1,7 @@
-package com.xin.proxydemo;
+package com.xin.proxydemo.staticProxy;
+
+import com.xin.proxydemo.common.IHttp;
+import com.xin.proxydemo.common.IHttpResultCallBack;
 
 /**
  * Created by admin on 2019/3/20.
