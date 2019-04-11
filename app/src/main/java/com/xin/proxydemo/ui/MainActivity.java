@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         User user = new User("123456", "123456");
 
-
 //        //******************* 静态代理 开始 *****************
 //        ProxyHttp.obtain().post(url, new Gson().toJson(user), new IHttpResultCallBack() {
 //            @Override
